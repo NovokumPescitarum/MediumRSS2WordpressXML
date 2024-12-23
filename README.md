@@ -22,9 +22,8 @@ pip install requests beautifulsoup4
 ```
 
 ## Usage
-### Function Signature
-```python
-medium_to_wordpress_rss(medium_rss_url: str, output_file_url: str) -> None
+```bash
+python3 script.py <medium_username>
 ```
 
 ### Parameters
@@ -91,15 +90,3 @@ Each Medium post is converted into the following structure:
 </item>
 ```
 
-## Error Handling
-- Ensures HTTP status is checked before processing the RSS feed.
-- Handles missing fields gracefully, providing default values when necessary.
-
-## Contributing
-1. Fork the repository.
-2. Create a new branch (`feature/your-feature`).
-3. Commit your changes.
-4. Open a pull request.
-
-## License
-This project is licensed under the MIT License.
