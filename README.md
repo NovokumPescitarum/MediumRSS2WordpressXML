@@ -30,16 +30,9 @@ python3 script.py <medium_username>
 - **medium_rss_url**: The URL of the Medium RSS feed (e.g., `https://medium.com/feed/@username`).
 - **output_file_url**: The directory path where the generated WordPress XML file will be saved.
 
-### Example
-```python
-from medium_to_wordpress import medium_to_wordpress_rss
-
-# Convert a Medium RSS feed to WordPress XML
-medium_to_wordpress_rss("https://medium.com/feed/@exampleuser", "/path/to/output")
-```
 
 ### Output
-The output file `medium_to_wordpress.xml` will be saved in the specified output directory.
+The output file `<medium_username>_medium_to_wordpress.xml` will be saved in the specified output directory.
 
 ## How It Works
 1. Fetches the Medium RSS feed using the provided URL.
