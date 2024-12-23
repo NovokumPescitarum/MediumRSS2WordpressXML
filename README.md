@@ -18,7 +18,7 @@
 
 Install dependencies using:
 ```bash
-pip install requests beautifulsoup4
+pip install requests
 ```
 
 ## Usage
